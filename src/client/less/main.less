@@ -1,0 +1,38 @@
+@color-dark: rgb(110,108,105);
+@color-light: rgb(233,231,226);
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+
+body {
+    background: @color-light;
+    font-size: 0.875em;
+}
+.content {
+    width: 40%;
+    margin: auto;
+    // border-top: rgba(0,0,0,0.08) solid 1px;
+    // border-bottom: rgba(0,0,0,0.08) solid 1px;
+    padding: 1em 1.5em;
+    font-family: 'Lucida Grande', Arial, Helvetica, sans-serif;
+    color: @color-dark;
+}
+
+.to-do {
+    background: rgb(92,91,87);
+    .content {
+        margin-top: 0;
+        color: rgb(255,255,255);
+    }
+}

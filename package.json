@@ -1,0 +1,27 @@
+{
+  "name": "nwf",
+  "version": "0.0.0",
+  "description": "Node web fraimwork",
+  "main": "src/main.js",
+  "dependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-coffee": "^0.10.1",
+    "require": "^0.5.0"
+  },
+  "devDependencies": {
+    "consolidate": "^0.10.0",
+    "express": "^4.1.1",
+    "grunt-coffeelint": "0.0.10",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-less": "^0.11.0",
+    "hamljs": "^0.6.2",
+    "hogan.js": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

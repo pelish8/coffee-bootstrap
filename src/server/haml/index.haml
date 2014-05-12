@@ -1,0 +1,23 @@
+!!! 5
+%html
+  %head
+    %title= 'Bootstrap App'
+    %link{rel: "stylesheet", href: "/css/main.css"}
+  %body
+    %div.content
+      %h1= 'Bootstrap App'
+      %strong= 'Tehnologies:'
+      %ul
+        %li= 'Node.js'
+        %li= 'CoffeeScript'
+        %li= 'haml'
+        %li= 'less'
+
+    %div.to-do
+      %div.content
+        %h2= 'To Do'
+        %ol
+          %li= '...'
+
+    / entry point for front end css files
+    %script{src: '/js/main.js'}
